@@ -2,6 +2,11 @@
 
 using namespace std;
 int main() {
-    printf("Hello New ");
-    return 5;
+//
+    int monthlySal ;
+    printf("enter your monthly salary : ");
+    scanf("%d",&monthlySal);
+    int annualSalary = Q3(monthlySal);
+    printf("Your Annual Salary is : %d" , annualSalary);
+    return 0;
 }
