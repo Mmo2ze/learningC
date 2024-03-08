@@ -1,6 +1,12 @@
 #include <stdio.h>
-
 using namespace std;
+
+int Q3(int monthlySalary){
+//    calc the  annual salary of employee
+
+    return  monthlySalary * 12;
+}
+
 int main() {
 //
     int monthlySal ;
